@@ -1,0 +1,8 @@
+.draggable-piece {
+  width: 100%;
+  height: 100%;
+}
+
+.game--inverted .draggable-piece {
+  transform: rotate(180deg);
+}

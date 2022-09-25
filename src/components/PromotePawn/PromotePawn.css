@@ -1,0 +1,45 @@
+.promote-pawn {
+  text-align: center;
+}
+
+.promote-pawn-heading {
+  font-size: 3rem;
+  background-color: #212529;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+}
+
+.promote-pawn-pieces {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+}
+
+.promote-pawn-piece {
+  width: 9.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.promote-pawn-piece:hover {
+  background-color: #e9ecef;
+}
+
+.promote-pawn-piece:nth-child(even) {
+  background-color: #2f9e44;
+  color: #fff;
+}
+
+.promote-pawn-piece:nth-child(even):hover {
+  background-color: #2b8a3e;
+}
+
+.promote-pawn-piece img {
+  width: 65%;
+  height: 65%;
+}
+
+.promote-pawn-piece p {
+  font-size: 2rem;
+}

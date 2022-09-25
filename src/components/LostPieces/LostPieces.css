@@ -1,0 +1,44 @@
+.lost-pieces-container {
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  height: 3rem;
+}
+
+.game--inverted .lost-pieces-container {
+  transform: rotate(180deg);
+  align-self: flex-end;
+}
+
+.lost-pieces-types {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+
+.lost-pieces-types li {
+  list-style: none;
+}
+
+.lost-pieces {
+  display: flex;
+  flex-direction: row;
+}
+
+.lost-piece {
+  list-style: none;
+  margin-right: -4.8rem;
+}
+
+.lost-piece img {
+  width: 40%;
+  height: 100%;
+}
+
+.advantage {
+  margin-left: 3.2rem;
+  font-size: 1.6rem;
+}

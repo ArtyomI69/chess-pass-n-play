@@ -1,0 +1,10 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game--inverted {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,8 @@
+.board {
+  height: 45.6rem;
+  width: 45.6rem;
+  border: 0.4rem solid #000;
+  display: flex;
+  flex-direction: column;
+  transform: rotate(180deg);
+}
