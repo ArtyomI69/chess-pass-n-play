@@ -1,0 +1,35 @@
+.modal-two-buttons {
+  text-align: center;
+}
+
+.modal-two-buttons-heading {
+  font-size: 3rem;
+  background-color: #212529;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+}
+
+.modal-two-buttons-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1.4rem 3rem;
+}
+
+.modal-two-buttons-button {
+  font-size: 2rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  color: #f1f3f5;
+}
+
+.modal-two-buttons-button--first-button {
+  background-color: #339af0;
+}
+
+.modal-two-buttons-button--second-button {
+  background-color: #51cf66;
+}

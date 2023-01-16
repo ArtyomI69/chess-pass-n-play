@@ -1,0 +1,191 @@
+/* We dont want turn board for tablets and phones */
+@media (max-width: 59em) {
+  .game--inverted,
+  .game--inverted .draggable-piece,
+  .modal--turnModal180deg .piece,
+  .lost-pieces .piece--black {
+    transform: rotate(0) !important;
+  }
+
+  .piece--black {
+    transform: rotate(180deg) !important;
+  }
+
+  .lost-pieces-container {
+    transform: rotate(0) !important;
+    align-self: flex-start !important;
+  }
+
+  .lost-pieces-container--white {
+    transform: rotate(180deg) !important;
+    align-self: flex-end !important;
+  }
+
+  .modal--turnModal180deg {
+    transform: translate(-50%, -50%) rotate(180deg) !important;
+  }
+}
+
+@media (max-width: 32.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  .board {
+    height: 45.6rem !important;
+    width: 52rem !important;
+  }
+
+  .game-title {
+    margin-bottom: 3.2rem;
+  }
+
+  .main {
+    gap: 4.8rem;
+  }
+
+  .game {
+    gap: 0.2rem !important;
+  }
+
+  .lost-pieces-types {
+    gap: 1rem !important;
+  }
+
+  .lost-piece {
+    margin-right: -6rem !important;
+  }
+
+  .lost-piece img {
+    width: 40% !important;
+    height: 100% !important;
+  }
+
+  .advantage {
+    margin-left: 3.2rem !important;
+  }
+}
+
+@media (max-width: 26.25em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .board {
+    height: 54rem !important;
+    width: 48.5rem !important;
+  }
+
+  .game-title {
+    margin-bottom: 4.8rem;
+  }
+
+  .main {
+    gap: 6.4rem;
+  }
+
+  .game {
+    gap: 0.4rem !important;
+  }
+
+  .lost-piece {
+    margin-right: -6.6rem !important;
+  }
+
+  .lost-piece img {
+    width: 35% !important;
+    height: 100% !important;
+  }
+}
+
+@media (max-width: 21.25em) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .board {
+    height: 59rem !important;
+    width: 49rem !important;
+  }
+
+  .game-title {
+    margin-bottom: 6.4rem;
+  }
+
+  .main {
+    gap: 10rem;
+  }
+
+  .game {
+    gap: 0.8rem !important;
+  }
+
+  .lost-piece {
+    margin-right: -8rem !important;
+  }
+
+  .lost-piece img {
+    width: 35% !important;
+    height: 100% !important;
+  }
+
+  .advantage {
+    margin-left: 4.2rem !important;
+  }
+}
+
+@media (max-width: 18.75em) {
+  html {
+    font-size: 34.375%;
+  }
+
+  .board {
+    height: 62rem !important;
+    width: 46.5rem !important;
+  }
+
+  .game-title {
+    margin-bottom: 8rem;
+  }
+
+  .lost-piece {
+    margin-right: -9rem !important;
+  }
+
+  .lost-piece img {
+    width: 30% !important;
+    height: 100% !important;
+  }
+
+  .advantage {
+    margin-left: 4.8rem !important;
+  }
+}
+
+@media (max-width: 16.25em) {
+  html {
+    font-size: 31.25%;
+  }
+
+  .board {
+    height: 70rem !important;
+    width: 45rem !important;
+  }
+
+  .game-title {
+    margin-bottom: 10rem;
+  }
+
+  .lost-piece {
+    margin-right: -10rem !important;
+  }
+
+  .lost-piece img {
+    width: 30% !important;
+    height: 100% !important;
+  }
+
+  .advantage {
+    margin-left: 5.5rem !important;
+  }
+}

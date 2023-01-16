@@ -1,0 +1,12 @@
+.custom-drag-layer {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+}
+
+.custom-drag-layer img {
+  width: 90%;
+  height: 90%;
+}

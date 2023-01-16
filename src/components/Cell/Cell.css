@@ -1,0 +1,63 @@
+.cell {
+  width: 12.5%;
+  height: 100%;
+  background-color: #f1f3f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(180deg);
+}
+
+.cell div {
+  width: 100%;
+  height: 100%;
+}
+
+.cell img {
+  width: 80%;
+  height: 80%;
+}
+
+.row:nth-child(even) .cell:nth-child(even) {
+  background-color: #c99f68;
+}
+
+.row:nth-child(odd) .cell:nth-child(odd) {
+  background-color: #c99f68;
+}
+
+.cell--checked {
+  box-shadow: inset 0 0 0 0.3rem #f03e3e;
+}
+
+.cell--selected {
+  box-shadow: inset 0 0 0 0.3rem #2f9e44;
+}
+
+.cell--highligted {
+  position: relative;
+}
+
+.cell--highligted::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  top: 50%;
+  background-color: #2f9e44;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.cell--highligted-piece {
+  box-shadow: inset 0 0 0 0.4rem #ffff00;
+}
+
+.cell--highligted:hover,
+.cell--highligted-piece:hover,
+.cell--hovered {
+  background-color: rgba(47, 158, 68, 0.4) !important;
+}
